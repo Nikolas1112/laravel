@@ -27,7 +27,7 @@
 									
 									if (isset($exception)) {
 										// echo (env('APP_DEBUG') == true && $exception->getMessage()) ? $exception->getMessage() : $defaultErrorMessage;
-										echo ($exception->getMessage()) ? $exception->getMessage() : $defaultErrorMessage;
+										echo echo ($exception->getMessage()) ? $exception->getMessage() : $defaultErrorMessage;
 									} else {
 										echo $defaultErrorMessage;
 									}

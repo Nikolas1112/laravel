@@ -19,11 +19,6 @@
 | The upgrading process routes
 |
 */
-Route::get('/', function () {
-    $districts=Location::pluck('district','district');
-
-    return view('front',compact('districts'));
-});
 Route::group(['namespace' => 'App\Http\Controllers\Install', 'middleware' => ['web']], function () {
 	Route::get('upgrade', 'UpdateController@index');
 });
