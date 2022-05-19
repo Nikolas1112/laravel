@@ -1,15 +1,5 @@
 {{--
- * Bunitas - Classified Ads Web Application
- * Copyright (c) bedigitCom. All Rights Reserved
- *
- * Website: http://www.bedigit.com
- *
- * LICENSE
- * -------
- * This software is furnished under a license and may be used and copied
- * only in accordance with the terms of such license and with the inclusion
- * of the above copyright notice. If you Purchased from Codecanyon,
- * Please read the full License from here - http://codecanyon.net/licenses/standard
+ * bunitas
 --}}
 @extends('errors.layouts.master')
 
@@ -37,7 +27,7 @@
 									
 									if (isset($exception)) {
 										// echo (env('APP_DEBUG') == true && $exception->getMessage()) ? $exception->getMessage() : $defaultErrorMessage;
-										echo echo ($exception->getMessage()) ? $exception->getMessage() : $defaultErrorMessage;
+										echo ($exception->getMessage()) ? $exception->getMessage() : $defaultErrorMessage;
 									} else {
 										echo $defaultErrorMessage;
 									}

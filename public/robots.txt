@@ -14,4 +14,5 @@ Disallow: /main.php
 Disallow: /mix-manifest.json
 
 
+Sitemap: http://127.0.0.1:8000/en/mk/sitemaps.xml
 Sitemap: http://127.0.0.1:8000/en/uk/sitemaps.xml

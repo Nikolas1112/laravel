@@ -67,7 +67,7 @@
                         @if (config('settings.footer.powered_by_info'))
                             {{ trans('admin.powered_by') }} {!! config('settings.footer.powered_by_info') !!}
                         @else
-                            {{ trans('admin.powered_by') }} <a target="_blank" href="http://bedigit.com">bedigit</a>
+                            {{ trans('admin.powered_by') }} <a target="_blank" href="http://ivsoftdesign.com">IVSOFT DESIGN</a>
                         @endif
                     </div>
                 @endif
